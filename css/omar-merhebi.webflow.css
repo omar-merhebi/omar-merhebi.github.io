@@ -1,0 +1,147 @@
+.hero-heading-right {
+  background-color: #1e1e1e;
+  border: 0 solid #4b9cd3;
+  border-width: 0 10px;
+  border-radius: 0;
+  padding: 80px 30px;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.hero-split {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 46%;
+  display: flex;
+}
+
+.shadow-two {
+  border: 0 solid #4b9cd3;
+  box-shadow: 0 4px 24px #96a3b514;
+}
+
+.margin-bottom-24px {
+  color: #fff;
+  margin-bottom: 24px;
+  font-family: Source Code Pro, sans-serif;
+}
+
+.button-primary {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #1a1b1f;
+  padding: 12px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  transition: all .2s;
+}
+
+.button-primary:hover {
+  color: #fff;
+  background-color: #32343a;
+}
+
+.button-primary:active {
+  background-color: #43464d;
+}
+
+.heading {
+  color: #fff;
+  font-family: Handjet, sans-serif;
+  font-size: 70px;
+}
+
+.section {
+  border-left: 10px solid #4b9cd3;
+}
+
+.section-2 {
+  background-color: #121212;
+  border-left: 10px solid #4b9cd3;
+  border-right: 1px solid #4b9cd3;
+}
+
+.text-block {
+  font-size: 24px;
+}
+
+.text-block-2 {
+  color: #fff;
+  margin-left: 100px;
+  font-family: Source Code Pro, sans-serif;
+  font-size: 14px;
+}
+
+.text-block-3 {
+  font-size: 24px;
+}
+
+.text-block-4 {
+  color: #fff;
+  margin-left: 100px;
+  padding-left: 10px;
+  font-family: Handjet, sans-serif;
+  font-size: 24px;
+  display: block;
+}
+
+.heading-2 {
+  color: #fff;
+  margin-left: 100px;
+  font-family: Handjet, sans-serif;
+  font-size: 24px;
+}
+
+.image {
+  margin-left: 100px;
+}
+
+.image-2 {
+  margin-left: 75px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 728px;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: -40px;
+  }
+
+  .hero-split {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-heading-right {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: none;
+  }
+}
+
+
